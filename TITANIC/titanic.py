@@ -15,10 +15,11 @@ grpcount = datagroupie.size().reset_index(name='Passenger Count')
 #Displaying the results
 print(grpcount)
 
-# Create count plots using Seaborn
+#Creating count plots
 plt.figure(figsize=(12, 6))
 sns.countplot(data=grpcount, x='Age', hue='Survived')
 plt.title('Passenger Count by Age Group (Survived vs. Not Survived)')
+
 #printing the plot
 plt.xticks(rotation=45)
 plt.tight_layout()
