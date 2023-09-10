@@ -18,7 +18,7 @@ print(grpcount)
 #Creating count plots
 plt.figure(figsize=(12, 6))
 sns.countplot(data=grpcount, x='Age', hue='Survived')
-plt.title('Passenger Count by Age Group (Survived vs. Not Survived)')
+plt.title('Passenger count by age group [Survived vs Not Survived]')
 
 #printing the plot
 plt.xticks(rotation=45)
