@@ -1,1 +1,1 @@
-<h1>MLSA TECH TASKS</h1>
+# Titanic and HR in python
